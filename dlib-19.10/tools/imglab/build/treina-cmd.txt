@@ -1,0 +1,2 @@
+
+./imglab -c treinamento_rocket.xml foguete/

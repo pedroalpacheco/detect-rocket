@@ -9,7 +9,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-build/
 develop-eggs/
 dist/
 downloads/
@@ -104,4 +103,6 @@ ENV/
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
+
+!/dlib-19.10/tools/imglab/build/
 
