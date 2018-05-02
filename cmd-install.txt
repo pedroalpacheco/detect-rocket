@@ -1,0 +1,8 @@
+conda info --envs
+source activate curso_dblib
+clear
+conda install -c conda-forge dlib
+conda install -c conda-forge opencv
+conda install -c conda-forge pillow
+pip freeze
+pip freeze > Requirements-anaconda.txt

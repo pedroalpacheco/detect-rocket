@@ -1,0 +1,4 @@
+certifi==2018.4.16
+numpy==1.14.3
+olefile==0.45.1
+Pillow==5.1.0

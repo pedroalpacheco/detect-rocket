@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+.idea/dbnavigator.xml
+.idea/detect-rocket.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+
