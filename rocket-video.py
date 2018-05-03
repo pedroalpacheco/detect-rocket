@@ -17,7 +17,8 @@ while captura.isOpened():
         for o in objetosDetectados:
             e, t, d, f = (int(o.left()), int(o.top()), int(o.right()), int(o.bottom()))
             cv2.rectangle(frame, (e, t), (d, f), (0, 0, 255), 2)
-            cv2.putText(frame, "Rocket detected!", (e, t), font, 1, (0, 0, 255))
+            cv2.putText(frame, "Rocket detected!", (e, t), font, 1, (0, 255, 255))
+
 
         cv2.imshow("Preditor de Objetos", frame)
 
